@@ -21,3 +21,9 @@
         nanoid: A tiny, secure, URL-friendly, unique string ID generator for JavaScript.
 
         react-confetti: Confetti without the cleanup.
+
+---
+
+<br>
+
+![gif](tenzies.gif)
