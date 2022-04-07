@@ -1,10 +1,15 @@
 import { nanoid } from 'nanoid'
-import React from 'react'
+import React, { useEffect } from 'react'
 import Die from './components/Die'
 import './style.css'
 
 export default function App() {
 	const [dice, setDice] = React.useState(allNewDice())
+	const [tenzies, setTenzies] = React.useState(false)
+
+	useEffect(() => {
+		console.log('Dice state changed')
+	}, [dice])
 
 	function generateNewDie() {
 		return {
